@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Start</title>
+  <style type="text/css">
+    .rog{
+      background-image: url('images/5.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+pre{
+  color:white;
+  font-size: 20px;
+}
+h1 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.h{
+  /*background-color: #2400ab;*/
+  background-image: url('images/10.png');
+}
+.p{
+  background-image: url('images/10.png');
+}
+.q{
+  background-image: url('images/11.png');
+}
+h1{
+  color: black;
+}
+.hh{
+  background-image: url('images/2.jpg')
+}
+
+.row {
+  display: flex;
+}
+.try{
+  align-items: center;
+  text-align: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.img{
+  width: 30%;
+  height: 30%;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+h2{
+  text-align: center;
+  color:black;
+}
+  </style>
+
+
+</head>
+<body>
+
+<img src="images/Main2.png" width="100%" height=60px>
+
+<!--navigation tab-->
+  <ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">Anime Info</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="help.html">Help</a></li>
+<li><a href="#contact">Contact</a></li>
+<li style="float: right"><a href="reg.html">Register Here</a></li>
+</ul>
+<div class="hh">
+<h1 id=home style="color: white;">Home</h1>
+<pre>
+
+
+
+
+
+
+
+</pre>
+
+</div>
+<div id="about">
+  <h2>Here are some cool anime which you like to watch:-</h2>
+<div class="h"> 
+<h1>Demon Slayer</h1>
+
+<pre><img src="images/Tanjiro/4.jpg" style="float: right;">Tanjiro Kamado is the main protagonist of Demon 
+Slayer: Kimetsu no Yaiba. He is a DemonSlayer in the Demon Slayer Corps, who joined to find a 
+remedy to turn his sister, Nezuko Kamado, back into a human and to hunt down and kill demons, 
+and later  swore to defeat Muzan Kibutsuji, the Demon King, in order to prevent others from 
+suffering the same fate as him.</pre>
+
+<pre>Before he became a Demon Slayer, Tanjiro was a coal burner before his entire family was 
+slaughtered by Muzan while hisyounger sister, Nezuko, was turned into a demon.</a>
+
+<pre style="color: black;">Genres : Action, Adventure, Comedy, Martial Arts, Super Power, Shounen
+<a href="https://animixplay.to/v1/naruto-shippuden">Watch Now</a></pre>
+
+</pre>
+</div>
+
+<pre>
+<h2>Pictures</h2>
+<div class="row">
+  <div class="column">
+<img src="images/Tanjiro/tanjiro4.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Tanjiro/tanjiro2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Tanjiro/tanjiro3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+</pre>
+<div class="p">
+<pre>
+
+<img src="images/Naruto/naruto.png" style="float: right;">
+<h1>Naruto: Shippuden</h1>
+Naruto: Shippuden is an anime series mainly adapted from Part II of Masashi Kishimoto's original
+manga series, with exactly 500 episodes. It is set two and a half years after the original series in 
+the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies. The series is 
+directed by Hayato Date, and produced by Pierrot and TV Tokyo. It began broadcasting on February 
+15,2007 on TV Tokyo, and concluded on March 23, 2017.
+
+Naruto, an adolescent ninja, dreams of becoming the Hokage in his village.
+<pre style="color: black;">Genres: Action, Supernatural, Demons, Historical, Shounen
+<a href="https://animixplay.to/v1/kimetsu-no-yaiba">Watch Now</a></pre>
+</pre>
+</div>
+
+
+<pre>
+<h2>Pictures</h2>
+
+<div class="row">
+  <div class="column">
+<img src="images/Naruto/naruto10.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Naruto/naruto12.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Naruto/naruto13.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</pre>
+
+</div>
+
+<div class="q">
+<pre>
+
+<img src="images/Jujutsu Kaisen/main.jpg" style="float: right;">
+<h1>Jujutsu Kaisen</h1>
+Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami, 
+serialized in Shueisha's Weekly Shōnen Jump since March 2018. The Jujutsu Kaisen 
+chapters are collected and published by Shueisha, with seventeen tankōbon volumes 
+released as of October 2021. The story follows high school student Yuji Itadori as
+he joins a secret organization of Jujutsu Sorcerers in order to kill a powerful 
+Curse named Ryomen Sukuna, of whom Yuji becomes the host.
+
+Genres : Action, Supernatural, Demons, School, Shounen
+<a href="https://animixplay.to/v1/jujutsu-kaisen-tv" style="color: white;">Watch Now</a>
+
+</pre>
+
+</div>
+
+
+<pre>
+<h2>Pictures</h2>
+
+<div class="row">
+  <div class="column">
+<img src="images/Jujutsu Kaisen/jk1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Jujutsu Kaisen/jk4.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Jujutsu Kaisen/jk6.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</pre>
+
+</div>
+
+<div class="q">
+<pre>
+
+<img src="images/Saitama/saitama.png" style="float: right;" class="img"> 
+<h1 style="color: dark">One Punch Man</h1>
+One-Punch Man is a Japanese superhero franchise created by the artist ONE. It tells 
+the story of Saitama, a superhero who can defeat any opponent with a single punch but 
+seeks to find a worthy opponent after growing bored by a lack of challenge due to 
+his overwhelming strength.
+
+<pre style="color: white;">Genres : Action, Comedy, Sci-Fi, Supernatural, Parody, Super Power
+<a href="https://animixplay.to/v1/one-punch-man" style="color: white;">Watch Now</a></pre>
+</pre>
+</div>
+
+
+<pre>
+<h2>Pictures</h2>
+
+<div class="row">
+  <div class="column">
+<img src="images/Saitama/Saitama2.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Saitama/saitama3.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+<img src="images/Saitama/saitama4.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</pre>
+
+</div>
+
+
+<!--<div>
+<header class="major">
+  <h1>Massa libero</h1>
+</header>
+<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. 
+In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. 
+Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+</div>-->
+
+
+<div class="try">
+<h3>Now after seeing all these, do you still not want to <a href="reg.html" class="button next">Register</a></h3> 
+</div>
+
+<footer id="contact">
+              <ul>
+                <li><a href="#" ><span class="label">Twitter</span></a></li>
+                <li><a href="#" ><span class="label">Facebook</span></a></li>
+                <li><a href="#" ><span class="label">Instagram</span></a></li>
+                <li><a href="#" ><span class="label">GitHub</span></a></li>
+                <li><a href="#" ><span class="label">LinkedIn</span></a></li>
+              </ul>
+              
+               <ul>
+                  <li>&copy; Untitled <strong>|</strong> Design By: Ujjwal Dhoundiyal</li>
+               </ul>
+              
+            </div>
+          </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Desk</title>
+<link rel="stylesheet" type="text/css" href="css/help.css">
+<style>
+body{
+  	font-family: Arial, Helvetica, sans-serif;
+  	background-image: url('images/saitama.png');
+	background-size: cover;
+	/*background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	/*background-size: 100% 100%*/
+}
+
+</style>
+</head>
+<body>
+
+<h3>Happy to help you &#x1F607;</h3>
+
+<div >
+  <form >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+<br>
+    <label for="country">Country </label>
+    <select id="country" name="country" required>
+      <option value=""> </option>
+      <option value="india">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="australia">Australia</option>
+      <option value="america">America</option>
+      <option value="other">Other</option>
+    </select>
+<br>
+    <label for="problem">Problem related to:-</label>
+    <select id="problem" name="problem" required>
+      <option value=""></option>
+      <option value="registration">Registration Problem</option>
+      <option value="link">Link not working</option>
+      <option value="sign">Sign in problem</option>
+    </select>
+    
+    <label for="subject"></label>
+    <p>Subject</p><textarea style="width: 35%;" id="subject" name="subject" placeholder="Write your problem here....." style="height:150px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
